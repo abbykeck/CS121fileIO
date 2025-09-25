@@ -24,6 +24,9 @@
         1. print text
     1. end for
     1. print new line
+    1. if (inFile.eof())
+        1. keepGoing = false;
+    1. end if
 1. end while
 1. close file with inFile
 1. end main
